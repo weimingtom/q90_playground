@@ -56,6 +56,7 @@ ld链接失败得不到最终的elf文件），
 ```
 
 ## About running MiyooCFW for Sup M3, not Q90  
+* about:  
 ```
 sup m3, MiyooCFW-2.0.0-Beta-7fc5140.zip, musl
 隔了好几个月，我终于摸索出怎么在sup m3上正确配置运行MiyooCFW的方法。
@@ -91,6 +92,18 @@ m3_rm68090
 m3_hx8347d
 m3_gc9306
 （2）等安装后重命名firstboot文件为firstboot.done
+```
+* not used ref    
+```
+https://github.com/tiopex/sdcard/releases
+
+http://c.tieba.baidu.com/p/7691824426?pn=2
+
+console.cfg
+CONSOLE_VARIANT=bittboy2x
+
+BOOT_M3_mod.7z\variants\bittboy2x\modules.custom.sh
+insmod "../../r61520fb.ko" version=1 flip=1
 ```
 
 ## sdltest

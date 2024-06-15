@@ -19,7 +19,6 @@ see below 'About running MiyooCFW for Sup M3'.
 * MiyooCFW-2.0.0-Beta-7fc5140.zip  
 from https://github.com/TriForceX/MiyooCFW/releases  
 don't use uclibc version in the zip file. use musl for prebuilt toolchain in github.com/MiyooCFW/toolchain   
-* 
 
 ## Copy files to the TF Card which mount to the VirtualBox xubuntu    
 * How:  
@@ -57,7 +56,7 @@ ld链接失败得不到最终的elf文件），
 ```
 
 ## About running MiyooCFW for Sup M3, not Q90  
-``
+```
 sup m3, MiyooCFW-2.0.0-Beta-7fc5140.zip, musl
 隔了好几个月，我终于摸索出怎么在sup m3上正确配置运行MiyooCFW的方法。
 其实很简单，就是要多修改options.cfg这个文件才行。

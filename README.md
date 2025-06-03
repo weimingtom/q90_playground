@@ -117,3 +117,7 @@ insmod "../../r61520fb.ko" version=1 flip=1
 * https://github.com/TriForceX/MiyooCFW/wiki/Making-Games
 * sudo docker run mcejp/arm-miyoo-linux-musleabi-gcc /opt/bittboy-toolchain/arm-buildroot-linux-musleabi-gcc -v
 * http://github.com/mcejp/docker-bittboy-toolchain/blob/master/Dockerfile  
+* sudo docker run --volume ~:/root -it mcejp/arm-miyoo-linux-musleabi-gcc  
+cd /root  
+arm-buildroot-linux-musleabi-gcc hello.c -lgcc -lc  
+(Need to add -lc, otherwise compiled failed: undefined reference to raise)  

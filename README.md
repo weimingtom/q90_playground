@@ -122,10 +122,10 @@ cd /root
 arm-buildroot-linux-musleabi-gcc hello.c -lgcc -lc  
 (Need to add -lc, otherwise compiled failed: undefined reference to raise)  
 (gcc10, ubuntu20)
-* (not good, gcc10, ubuntu20, arm-buildroot-linux-musleabi-gcc, need -lc) https://hub.docker.com/r/miyoocfw/toolchain
+* (not good, gcc10, ubuntu20, arm-buildroot-linux-musleabi-gcc, need -lc) https://hub.docker.com/r/miyoocfw/toolchain  
 * https://hub.docker.com/r/miyoocfw/toolchain-shared-musl  
-* sudo docker run --volume ~:/root -it miyoocfw/toolchain-shared-musl  
+* sudo docker run --volume ~:/root -it miyoocfw/toolchain-shared-musl    
 cd /root  
 arm-miyoo-linux-musleabi-gcc hello.c  
 arm-linux-gcc hello.c  
-(gcc9, ubuntu20, not need -lc)  
+(gcc9.4, ubuntu20, not need -lc)  

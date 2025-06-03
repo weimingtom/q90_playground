@@ -111,3 +111,7 @@ insmod "../../r61520fb.ko" version=1 flip=1
 
 ## TODO  
 * (done)  
+
+## docker  
+* https://hub.docker.com/r/mcejp/arm-miyoo-linux-musleabi-gcc  
+* https://github.com/TriForceX/MiyooCFW/wiki/Making-Games

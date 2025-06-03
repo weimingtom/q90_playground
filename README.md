@@ -129,3 +129,7 @@ cd /root
 arm-miyoo-linux-musleabi-gcc hello.c  
 arm-linux-gcc hello.c  
 (gcc9.4, ubuntu20, not need -lc, dynamically linked, /lib/ld-musl-arm.so.1)    
+* https://hub.docker.com/r/nfriedly/miyoo-toolchain  
+https://github.com/nfriedly/miyoo-toolchain/  
+(gcc11.2, ubuntu20, statically linked, arm-buildroot-linux-musleabi-gcc and arm-linux-gcc, need -lc)  
+ 

@@ -115,3 +115,5 @@ insmod "../../r61520fb.ko" version=1 flip=1
 ## docker  
 * https://hub.docker.com/r/mcejp/arm-miyoo-linux-musleabi-gcc  
 * https://github.com/TriForceX/MiyooCFW/wiki/Making-Games
+* sudo docker run mcejp/arm-miyoo-linux-musleabi-gcc /opt/bittboy-toolchain/arm-buildroot-linux-musleabi-gcc -v
+* 

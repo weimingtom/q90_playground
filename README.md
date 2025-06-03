@@ -131,5 +131,5 @@ arm-linux-gcc hello.c
 (gcc9.4, ubuntu20, not need -lc, dynamically linked, /lib/ld-musl-arm.so.1)    
 * https://hub.docker.com/r/nfriedly/miyoo-toolchain  
 https://github.com/nfriedly/miyoo-toolchain/  
-(gcc11.2, ubuntu20, statically linked, arm-buildroot-linux-musleabi-gcc and arm-linux-gcc, need -lc)  
- 
+(gcc11.2, ubuntu20, statically linked, arm-buildroot-linux-musleabi-gcc and arm-linux-gcc, need -lc)    
+sudo docker run --volume ~:/root -it nfriedly/miyoo-toolchain  
